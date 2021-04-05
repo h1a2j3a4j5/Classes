@@ -1,0 +1,47 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.header-com{
+    width: 100%;
+    height: 75px;
+    background:black;
+    margin: 0 auto;
+   }
+.logo  {
+    color: firebrick;
+    float: left;
+    display:inline-block;
+}
+.logo h1{
+    margin:20px;
+}
+ul{
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+    line-height: 64px;
+    font-size: 19px;
+}
+.nav{
+    margin: 0 auto;
+    padding: 10px;
+}
+.gallrey{
+display: flex;
+flex-wrap: wrap;
+width: 100%;
+}
+.section{
+width: 277px;
+height: 620px;
+}
+.Paragraph{
+    text-align: center;
+    font-family: serif;
+    font-size: 16px;
+    width: 441px;
+    display: inline-block;
+    margin-top: 12px;
+    color: chocolate;
+}

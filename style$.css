@@ -1,0 +1,102 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    margin: 0 auto;
+}
+.title{color: antiquewhite;
+    float: left;
+    margin: 0 auto;
+    margin-left: 5px;
+}
+h1{
+    line-height: 7px;
+    display: inline-block;
+}
+ul{
+    display: flex;
+    margin: 0 auto;
+    font-family: system-ui;
+    font-size: 20px;
+    justify-content: flex-end;
+}
+.nav{
+    width: 100px;
+    line-height: 39px;
+    color: aquamarine;
+}
+ul.li a{
+   color: chocolate;
+   list-style: none;
+}
+li.nav{
+    list-style: none;
+    display: inline-block;
+    width: 114px;
+    line-height: 42px;
+}
+
+a:link{
+    color:crimson;
+    text-decoration: none;
+    list-style: none;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+}
+.T-shirt {
+    width: 397px;
+    height: 543px;
+}
+.section{
+    text-align: center;
+}
+h2{
+    
+    color: blue;
+    font-size: 36px;
+    font-style: italic;
+    border-bottom: solid 1px darkgoldenrod;
+    display: inline-block;
+}
+.About-Us{font-size: 30px;
+    font-style: italic;
+    color: black;
+    }
+h3{
+    margin-left: 78px;
+    display: inline-block;
+    border-bottom: solid 2px goldenrod;
+}
+.Paragraph{
+    display: inline-block;
+}
+p{
+    text-align: right;
+    width: 441px;
+    color: blueviolet;
+    font-size: 20px;
+    font-family: cursive;
+}
+.final{
+    border-bottom: solid 2px green;
+}
+.aba{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    color: black;
+    font-family: system-ui;
+    background-color: antiquewhite;
+    height: 355px;
+}
+h5{
+    color: blueviolet;
+}
