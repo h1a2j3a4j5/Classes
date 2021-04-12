@@ -1,11 +1,13 @@
 let add = document.getElementById('one');
 add.innerHTML = "two";
 
-let p = document.createElement('p');
-p.innerHTML = "github";
-document.body.appendChild(p);
-add.appendChild(p);
-console.log(add);
+let w = document.getElementById("par");
+
+let p = document.createTextNode("new-par");
+p.innerHTML = "new-par";
+w.appendChild(p);
+
+
 
 let h = document.createElement('p');
 h.innerHTML = "i am learen javaskript";
@@ -24,3 +26,9 @@ for(k of dom){
     k.style.backgroundColor = 'green';
     k.style.height = '50px';  
 }
+let s = document.querySelectorAll('.box');
+console.log(s);
+
+let creat = document.createElement('h1');
+creat.innerHTML = "title";
+document.body.appendChild(creat);
