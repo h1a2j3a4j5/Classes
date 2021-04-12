@@ -10,3 +10,5 @@ console.log(add);
 let h = document.createElement('h1');
 h.innerHTML = "i am learen javaskript";
 h.appendChild(h1);
+
+let add = document.getElementById('first');
