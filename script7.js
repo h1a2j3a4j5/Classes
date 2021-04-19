@@ -27,3 +27,4 @@ document.body.appendChild(A);
 
 A.style.width = "500px";
 A.style.backgroundColor = "green";
+A.style.height = "500px";
