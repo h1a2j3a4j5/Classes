@@ -10,7 +10,7 @@ w.appendChild(p);
 
 
 let h = document.createElement('p');
-h.innerHTML = "i am learen javaskript";
+h.innerHTML = "i am learn javascript";
 document.body.appendChild(p);
 
 let now = document.getElementById('first');
