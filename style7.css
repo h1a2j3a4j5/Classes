@@ -3,9 +3,10 @@
     background-color: aqua;
     padding: 14px;
     text-decoration: none;
-} */
-.button{
-    background-color: aqua;
-    width: 50px;
-    height: 50px;
+*/
+
+.nav-link.active{
+    background-color: cyan;
+    margin: 10px;
+    padding: 10px;
 }
