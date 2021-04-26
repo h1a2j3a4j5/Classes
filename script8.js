@@ -3,8 +3,6 @@ let tabPane = document.querySelectorAll(".tab-pane");
 let chooseTab;
 
 
-
-
 add.forEach(el => {
     el.addEventListener("click", ev => {
         chooseTab = ev.target.id;
@@ -23,3 +21,10 @@ add.forEach(el => {
       ev.target.setAttribute("class", "nav-link active");
     });
 });
+// setInterval(() => {
+//   ("how are you ?");
+// }, 10000);
+
+// setTimeout(() => {
+//   ("how are you ?");
+// }, 10000);

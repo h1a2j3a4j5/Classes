@@ -10,3 +10,22 @@
     margin: 10px;
     padding: 10px;
 }
+
+#mouse {
+    margin: 5px;
+    padding: 5px;
+    background-color: blueviolet;
+    width: 50px;
+}
+
+.nav-link.active{
+    background-color: brown;
+    margin: 10px;
+    padding: 10px;
+}
+.tab-pane {
+display: none;
+}
+.tab-pane.active{
+    display: block;
+}
